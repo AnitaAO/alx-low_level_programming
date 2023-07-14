@@ -1,4 +1,5 @@
 #include <stdio.h>
+# include <stdint.h>
 
 /**
  * main - this is the main function
