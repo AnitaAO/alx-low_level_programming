@@ -1,23 +1,17 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * main - print _putchar
- * is written by amara
- *
- * Return: 0
+ * main - Entry point
+ * Return: returns 0
  */
-
 int main(void)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+	char str[] = "_putchar";
+	int i;
 
-return (0);
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		putchar(str[i]);
+	}
+	putchar('\n');
+	return (0);
 }
