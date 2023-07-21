@@ -4,11 +4,12 @@
 /**
  * main - check the code.
  *
- * Retur: Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
 	char c;
+
 	c = 'A';
 	printf("%c: %d\n", c, _isupper(c));
 	c = 'a';
