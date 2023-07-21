@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * print_traingle - entry point
- * Description: Prints a right angle triangle using '#'.
- * @size: size of the triangle
- * Return: void
+ * print_triangle -Prints a diagonal trinagle of size size
+ * @size: The size of the triangle
+ * Return: Nothing
  */
 
 void print_triangle(int size)
