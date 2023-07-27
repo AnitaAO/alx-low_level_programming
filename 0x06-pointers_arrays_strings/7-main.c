@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
+char *leet(char *s);
+
 /**
  * main - check the code for
  *
